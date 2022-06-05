@@ -1,0 +1,43 @@
+{
+	"buttons": {
+		"add": "Add",
+		"edit_as_json": "Edit as JSON",
+		"reset": "Reset",
+		"save": "Save",
+		"start": "Start"
+	},
+	"errors": {
+		"keywords_category_is_missing": "Keyword set must contain category, product name and colour.",
+		"keywords_colour_is_missing": "Specify colour keyword, or remove the field.",
+		"keywords_duplicates": "It looks like you have two items with the same product name. If a limit is set for this product and it is reached, the item will be skipped.",
+		"keywords_empty": "Add at least one set of keywords.",
+		"keywords_item_is_missing": "Specify product name and colour keywords, or remove the field.",
+		"required_field": "Required field is not filled.",
+		"set_elapsed_time": "The timer is set to elapsed time. Set the time you want to start the process or turn off the timer option.",
+		"sizes_empty": "Select at least one size.",
+		"verification_value_max_length": "CVV code must be less than 4 digits",
+		"verification_value_min_length": "The CVV code must be at least 3 digits long."
+	},
+	"form": {
+		"billing_shipping_information": "Billing/Shipping information:",
+		"credit_card_information": "Credit card information:",
+		"disable_loading_images": "Disable loading images",
+		"enable_auto_payment": "Enable auto payment",
+		"keywords_list": "Keywords list:",
+		"sizes": "Sizes:",
+		"start_at": "Start at",
+		"use_timer": "Use timer"
+	},
+	"messages": {
+		"billing_form_saved": "Billing form saved."
+	},
+	"sidebar": {
+		"language": "Language",
+		"logout": "Logout",
+		"settings": "Settings"
+	},
+	"tabs": {
+		"billing_shipping_settings": "Billing/Shipping Settings",
+		"search_parameters": "Search Parameters"
+	}
+}

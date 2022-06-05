@@ -1,0 +1,42 @@
+{
+  "type": "array",
+  "maxItems": 12,
+  "items": {
+    "type": "object",
+    "properties": {
+      "category": {
+        "type": "string",
+        "enum": [
+          "jackets",
+          "shirts",
+          "tops_sweaters",
+          "sweatshirts",
+          "pants",
+          "shorts",
+          "t-shirts",
+          "hats",
+          "bags",
+          "accessories",
+          "skate"
+        ]
+      },
+      "item": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 24
+      },
+      "colour": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 24
+      }
+    },
+    "required": [
+      "category",
+      "item",
+      "colour"
+    ],
+    "additionalProperties": false
+  }
+
+}
